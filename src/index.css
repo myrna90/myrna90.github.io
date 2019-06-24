@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Tulpen+One&display=swap'); 
+
+body{
+  /*background-color:#99c5c4;*/
+  background-image: url("../src/img/escritorio-vintage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App{
+  font-family:'Tulpen One', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/*hr{
+  background-color: #198BAE;
+  width: 1000px;
+  height: 4px;
+  align-items: stretch;
+}*/
+
+.Home{
+  width: 1000px;
+    margin: auto;
+    height: 700px;
+    opacity: 50px;
+}
+
+h1{
+  font-size: 700%;
+  text-align: center;
+  align-items: stretch;
+  color: aliceblue;
+  margin: 0;
+}
+
+.Routcurriculum{
+  display: flex;
+  float: left;
+  font-size: 400%;
+  color: aliceblue;
+}
+.Routproyects{
+  display: flex;
+  float: right;
+  font-size: 400%;
+  color: aliceblue;
+}
+.img1{
+  background-image: url("https://quesignificado.com/wp-content/uploads/2018/01/vintage-992x661.jpg");
+}
+.img2{
+  background-image: url("https://www.zoomtecnologico.com/wp-content/uploads/2018/04/teclado.jpg");
+}
+
+.curriculum{
+  width: 1000px;
+  margin: auto;
+  height: 700px;
+}

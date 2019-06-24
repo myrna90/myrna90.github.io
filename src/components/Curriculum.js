@@ -1,0 +1,14 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import {pdf} from "react-pdf"
+class Curriculum extends React.Component{
+    render(){
+        return(
+            <div className="curriculum">
+                
+            </div>
+        )
+    }
+}
+
+export default Curriculum;
