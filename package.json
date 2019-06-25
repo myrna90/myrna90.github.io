@@ -17,7 +17,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://myrna90.github.io/Portafolio/"
+    "homepage": "https://myrna90.github.io"
   },
   "eslintConfig": {
     "extends": "react-app"
