@@ -5,7 +5,7 @@ class Curriculum extends React.Component{
     render(){
         return(
             <div className="curriculum">
-                
+               
             </div>
         )
     }
