@@ -8,7 +8,8 @@
     "react-dom": "^16.8.6",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "homepage": "https://myrna90.github.io"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +18,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://myrna90.github.io"
   },
   "eslintConfig": {
     "extends": "react-app"
