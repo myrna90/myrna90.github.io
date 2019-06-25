@@ -19,11 +19,16 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "deploy": "gh-pages -b master -d build"
 =======
     "deploy": "gh-pages -b master -d build",
     "homepage": "http://myrna90.github.io"
 >>>>>>> 85cb84abcd42c913a294bbc27671ab95f86313b4
+=======
+    "deploy": "gh-pages -b master -d build",
+    "homepage": "http://myrna90.github.io"
+>>>>>>> 85cb84a... se agrego nueva liga al package.json
   },
   "eslintConfig": {
     "extends": "react-app"
