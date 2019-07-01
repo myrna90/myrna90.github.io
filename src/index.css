@@ -12,28 +12,24 @@ section{
   max-width: 1200px;
   min-width: 300px;
 }
+
+header{
+  width: 1200px;
+  
+  align-content: center;
+}
+
 div{
   max-width: 1200px;
   min-width: 300px;
 }
 
-.curriculum{
-  font-size: 300%;
-}
-
-/*hr{
-  background-color: #198BAE;
-  width: 1000px;
-  height: 4px;
-  align-items: stretch;
-}*/
 h1{
   display: flex;
   font-size: 700%;
   text-align: center;
   color: aliceblue;
   margin: 0;
-  margin-left: 430px;
 }
 
 h2{
@@ -61,24 +57,10 @@ img{
   opacity: 50px;
 }
 
-header{
-  width: 1200px;
-  height: 200px;
-}
 
-.Routcurriculum{
+.container{
   display: flex;
-  float: left;
-  margin-left: 300px;
-  font-size: 400%;
-  color: aliceblue;
-}
-.Routprojects{
-  display: flex;
-  float: right;
-  margin-right: 300px;
-  font-size: 400%;
-  color: aliceblue;
+  flex-direction: column;
 }
 
 .AboutMe{
@@ -88,19 +70,15 @@ header{
   display: flex;
   float: left;
   margin-top: 50px;
-  padding-left: 250px;
+  padding-left: 10px;
   padding-top: 10px;
   border-radius: 15px;
 }
-hr{
-  background-color: #198BAE;
-  width: 5px;
-}
 
-.Text{
+p{
   background-color: rgba(255, 255, 255, 0.6);
   width: 600px;
-  height: 220px;
+  height: 300px;
   display: flex;
   float: left;
   font-size: 150%;
@@ -112,15 +90,19 @@ hr{
   border-radius: 15px;
 }
 
-.curriculum{
-  width: 1000px;
-  margin: auto;
-  height: 700px;
+.Routprojects{
+  font-size: 300%;
 }
 
-@media screen and (max-width: 640px) {
-  
+.Routcontact{
+  font-size: 300%;
 }
+/*@media (max-width: 480px) {
+
+  .Home {
+    display: none;
+    }
+  }
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
   
@@ -128,5 +110,5 @@ hr{
 
 @media screen and (min-width: 1024px) {
   
-}
+}*/
 

@@ -2,6 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://myrna90.github.io/",
   "dependencies": {
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -32,6 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://myrna90.github.io/"
+  }
 }
