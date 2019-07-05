@@ -17,16 +17,6 @@ div{
   min-width: 300px;
 }
 
-.curriculum{
-  font-size: 300%;
-}
-
-/*hr{
-  background-color: #198BAE;
-  width: 1000px;
-  height: 4px;
-  align-items: stretch;
-}*/
 h1{
   display: flex;
   font-size: 700%;
@@ -66,16 +56,16 @@ header{
   height: 200px;
 }
 
-.Routcurriculum{
+.Routcontact{
   display: flex;
-  float: left;
+  float: right;
   margin-left: 300px;
   font-size: 400%;
   color: aliceblue;
 }
 .Routprojects{
   display: flex;
-  float: right;
+  float: left;
   margin-right: 300px;
   font-size: 400%;
   color: aliceblue;
@@ -92,15 +82,11 @@ header{
   padding-top: 10px;
   border-radius: 15px;
 }
-hr{
-  background-color: #198BAE;
-  width: 5px;
-}
 
 .Text{
   background-color: rgba(255, 255, 255, 0.6);
   width: 600px;
-  height: 220px;
+  height: 300px;
   display: flex;
   float: left;
   font-size: 150%;
@@ -112,11 +98,6 @@ hr{
   border-radius: 15px;
 }
 
-.curriculum{
-  width: 1000px;
-  margin: auto;
-  height: 700px;
-}
 
 @media screen and (max-width: 640px) {
   

@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {pdf} from "react-pdf"
-class Curriculum extends React.Component{
+
+class Contact extends React.Component{
     render(){
         return(
-            <div className="curriculum">
-               
+            <div className="contact">
+               <h1>Si funciona contacto</h1>
             </div>
         )
     }
 }
 
-export default Curriculum;
+export default Contact;
