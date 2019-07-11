@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {pdf} from "react-pdf"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Contact extends React.Component{
     render(){
         return(
-            <div className="contact">
+            <Container className="contact">
                <h1>Si funciona contacto</h1>
-            </div>
+            </Container>
         )
     }
 }
