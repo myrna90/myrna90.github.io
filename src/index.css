@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Tulpen+One&display=swap'); 
+
+body{
+  /*background-color:#99c5c4;*/
+  /*background-image: url("../src/img/escritorio-vintage.jpg");*/
+  background-color: #fafbfd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Tulpen One', cursive;
+}
+
