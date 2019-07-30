@@ -21,18 +21,18 @@ class Contact extends React.Component{
                     <div className="contact-list">
                      <List>
                         <ListItem>
-                            <ListItemContent style={{fontSize: "25px", fontFamily: "Anton"}}>
+                            <ListItemContent style={{fontSize: "1.5em", fontFamily: "Anton"}}>
                                 <img src="https://png.pngtree.com/element_origin_min_pic/16/12/04/dafa1bcc15a62fa03b79def7d007cde4.jpg" style={{width: "12%"}}/>
                                 myrnamares90@gmail.com</ListItemContent>
                         </ListItem>
                         <ListItem>
-                            <ListItemContent style={{fontSize: "25px", fontFamily: "Anton"}}>
+                            <ListItemContent style={{fontSize: "1.5em", fontFamily: "Anton"}}>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1200px-Facebook_F_icon.svg.png" style={{width: "12%"}}/>
                                 Myrna Mares Cabello
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                        <ListItemContent style={{fontSize: "25px", fontFamily: "Anton"}}>
+                        <ListItemContent style={{fontSize: "1.5em", fontFamily: "Anton"}}>
                                 <img src="https://www.educativa.com/wp-content/uploads/2014/01/twitterenformacion.png" style={{width: "15%"}}/>
                                 @mares_myrna
                             </ListItemContent>

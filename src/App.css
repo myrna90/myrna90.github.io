@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Tulpen+One&display=swap'); 
+
 
 .header-color{
     background: #ECE9E6;  /* fallback for old browsers */
@@ -12,7 +12,7 @@
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    position: fixed;
+    /*position: fixed;*/
     top: auto;
     left: 0;
     width: 100%;
@@ -20,7 +20,10 @@
 }
 
 .projects-grid{
-    display: flex;
+    margin: auto;
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact-body hr{
@@ -34,27 +37,27 @@
     opacity: .8;
     width: 75%;
     margin: auto;   
-    border-radius: 10px;
+    border-radius: .7em;
 }
 
 .name{
     font-family: 'Anton', sans-serif;
 }
 .b-text h1{
-    font-size: 66px;
+    font-size: 4.3em;
     font-weight: bold;
     color: #2271b3;
 }
 
 .b-text hr{
-    border-top: 5px dotted white;
+    border-top: .3em dotted white;
     width: 50%;
     margin: auto;
 }
 
 .b-text p{
     color: #2271b3;
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 1em;
 }
 
@@ -68,7 +71,7 @@
 img {
     width: 60%;
     height: 60%;
-    padding: 8px;
+    padding: .5em;
 }
 
 .content-gif{
@@ -89,7 +92,7 @@ img {
     margin: auto;
     background: #cdcdcd;
     color: black;
-    position: fixed;
+    /*position: relative;*/
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -100,11 +103,11 @@ img {
     text-align: center;
     justify-content: center;
     width: 88%;
-    height: 550px;
+    height: 70vh;
     background: whitesmoke;
     color: black;
-    border: 2px solid #256d7b;
-    margin-bottom: 20px;
+    border: .4em solid #256d7b;
+    margin-bottom: 1.5em;
 }
 
 .contact-grid h2{
@@ -125,7 +128,7 @@ img {
 /* page About me*/
 .resume-rigth{
     background: #cdcdcd;
-    color: black
+    color: #2271b3;
 }
 .img-logo{
     width: 20%;
