@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {HashRouter,Link, Route, Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from "./components/main";
 
@@ -9,6 +9,7 @@ import Main from "./components/main";
 class App extends Component{
   render(){
     return (
+        
         <div className="demo-big-content" title="My Portafolio" scroll style={{color:"#2271b3"}}>
         <Layout>
             <Header className="header-color" title="Myrna Mares" scroll style={{color:"#2271b3"}}>
@@ -33,7 +34,7 @@ class App extends Component{
             </Content>
         </Layout>
     </div>
-      );
+      )
   }
     
 }

@@ -5,7 +5,8 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 class Contact extends React.Component{
     render(){
         return(
-         <div className="contact-body">
+            
+        <div className="contact-body">
              <Grid className="contact-grid">
                  <Cell col={6}>
                      <h2>Myrna Mares</h2>
@@ -41,7 +42,7 @@ class Contact extends React.Component{
                      
                  </Cell>
              </Grid>
-         </div>   
+        </div>
         )
     }
 }
