@@ -83,7 +83,7 @@ class Projects extends React.Component{
         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
             <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://img.freepik.com/vector-gratis/ilustracion-logo-ubicacion-pin-icono-restaurante_15602-15.jpg?size=338&ext=jpg) center / cover"}}></CardTitle>
             <CardText style={{color: "#2271b3", justifyContent:""}}>
-            Food Find<hr/>Es una interfas realizada con ReactJS y conectada a la API de Google Maps, la cual realiza una busqueda de restaurantes cerca de la ubicación actual del usuario.
+            Food Find<hr/>Es una interfaz realizada con ReactJS y conectada a la API de Google Maps, la cual realiza una búsqueda de restaurantes cerca de la ubicación actual del usuario.
             </CardText>
             <CardActions border>
             <Button colored href="https://github.com/myrna90/GDL-open-house" target="_blank">GitHub</Button>

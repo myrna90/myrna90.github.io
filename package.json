@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "homepage": "http://myrna90.github.io"
+    "homepage": "https://myrna90.github.io"
   },
   "eslintConfig": {
     "extends": "react-app"

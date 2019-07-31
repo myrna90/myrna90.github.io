@@ -126,10 +126,19 @@ img {
 }
 
 /* page About me*/
-.resume-rigth{
+.aboutme-body{
     background: #cdcdcd;
     color: #2271b3;
 }
+
+.aboutme-grid{
+
+}
+
+.aboutme-grid{
+
+}
+
 .img-logo{
     width: 20%;
     height: 40%;
