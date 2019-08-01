@@ -36,11 +36,11 @@ class Aboutme extends React.Component {
                         
                         <h5>Mis pasatiempos</h5>
                         <div className="content-hobies">
-                        <a><img src="https://image.flaticon.com/icons/svg/67/67037.svg"/></a>
-                        <a><img src="https://image.flaticon.com/icons/svg/1077/1077134.svg"/></a>
-                        <a><img src="https://image.flaticon.com/icons/svg/10/10869.svg"/></a>
-                        <a><img src="https://image.flaticon.com/icons/svg/201/201623.svg"/></a>
-                        <a><img src="https://image.flaticon.com/icons/svg/1728/1728673.svg "/></a>
+                        <a><img className="hobies-img" src="https://image.flaticon.com/icons/svg/67/67037.svg"/></a>
+                        <a><img className="hobies-img" src="https://image.flaticon.com/icons/svg/1077/1077134.svg"/></a>
+                        <a><img className="hobies-img" src="https://image.flaticon.com/icons/svg/10/10869.svg"/></a>
+                        <a><img className="hobies-img" src="https://image.flaticon.com/icons/svg/201/201623.svg"/></a>
+                        <a><img className="hobies-img" src="https://image.flaticon.com/icons/svg/1728/1728673.svg "/></a>
                         </div>
                     </Cell>
                 </Grid>

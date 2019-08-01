@@ -9,16 +9,18 @@ class Contact extends React.Component{
         <div className="contact-body">
              <Grid className="contact-grid">
                  <Cell col={6}>
+                     <div>
                      <h2>Myrna Mares</h2>
                      <img src="https://media1.tenor.com/images/71bf5ad3f640b0a58d9cf01fd51b7c81/tenor.gif?itemid=9021603" style={{height: "40%", width: "40%"}}/>
                      <p>Si quieres ponerte en contacto conmigo estos son los medios por los cuales estoy disponible.</p>
                      <h3>Gracias por visitarme</h3>
+                     </div>                    
                  </Cell>
                  <Cell col={6}>
-                     <h2>Contactame</h2>
-                     <hr/>
-
+                
                     <div className="contact-list">
+                    <h2>Contactame</h2>
+                     <hr/>
                      <List>
                         <ListItem>
                             <ListItemContent style={{fontSize: "1.5em", fontFamily: "Anton"}}>

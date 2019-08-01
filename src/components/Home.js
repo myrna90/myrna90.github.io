@@ -34,9 +34,9 @@ class Home extends React.Component {
                         </div>
                         </div>
                         <div className="content-gif">
-                            <a><img src="https://media1.tenor.com/images/d6a83a2a3e628b4ce196f5cea11db932/tenor.gif?itemid=3296529"/></a>
-                            <a><img src="https://i.kym-cdn.com/photos/images/original/000/874/714/e73.gif"/></a>
-                            <a><img src="https://2.bp.blogspot.com/-DYq5ykFY2bs/WN_SNW_xI3I/AAAAAAAA__8/VyeyJFGHX-A0qAN7cKFqeihcHNfiPikbACLcB/s1600/s-28.gif"/></a>
+                            <a><img className="img-gif" src="https://media1.tenor.com/images/d6a83a2a3e628b4ce196f5cea11db932/tenor.gif?itemid=3296529"/></a>
+                            <a><img className="img-gif" src="https://i.kym-cdn.com/photos/images/original/000/874/714/e73.gif"/></a>
+                            <a><img className="img-gif" src="https://2.bp.blogspot.com/-DYq5ykFY2bs/WN_SNW_xI3I/AAAAAAAA__8/VyeyJFGHX-A0qAN7cKFqeihcHNfiPikbACLcB/s1600/s-28.gif"/></a>
                         </div>
                     </Cell>
                 </Grid>

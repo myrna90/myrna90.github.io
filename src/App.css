@@ -19,31 +19,25 @@
     height: 100%;
 }
 
-.projects-grid{
-    margin: auto;
-    display: -webkit-flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contact-body hr{
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-}
-
 .b-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     background-color: #dfe6f2;
     opacity: .8;
     width: 75%;
+    height: auto;
     margin: auto;   
     border-radius: .7em;
+    margin-bottom: 3em;
 }
 
 .name{
     font-family: 'Anton', sans-serif;
 }
-.b-text h1{
+.b-text h2{
     font-size: 4.3em;
     font-weight: bold;
     color: #2271b3;
@@ -68,9 +62,9 @@
     margin: auto;
 }
 
-img {
-    width: 60%;
-    height: 60%;
+.social-links img {
+    width: 80px;
+    height: auto;
     padding: .5em;
 }
 
@@ -81,11 +75,25 @@ img {
     margin: auto; 
 }
 
+.img-gif{
+    width: 200px;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 .content-gif a{
     width: 30%;
     height: 30%;   
 }
 
+/*projects page css*/
+.projects-grid{
+    margin: auto;
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 /* contact page css */
 .contact-body{
@@ -97,6 +105,12 @@ img {
     height: 100%;
     justify-content: center;
     padding-top: 2em;
+}
+
+.contact-body hr{
+    border-top: .4em dotted black;
+    width: 50%;
+    margin: auto;
 }
 
 .contact-grid{
@@ -151,4 +165,9 @@ img {
 .content-hobies a{
     width: 20%;
     height: 20%;
+}
+
+.hobies-img{
+    width: 30%;
+    height: 30%;
 }
