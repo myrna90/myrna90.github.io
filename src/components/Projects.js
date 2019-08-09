@@ -44,6 +44,8 @@ class Projects extends React.Component{
             <IconButton name="share"/>
             </CardMenu>
         </Card>
+
+        
         
         {/*Project 3*/}
         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
@@ -60,26 +62,14 @@ class Projects extends React.Component{
             </CardMenu>
         </Card>
         </div>
-            )
+            ) 
         } else if(this.state.activeTab === 1){
         return(
+           
         <div className="projects-grid">
-            {/*Project 1*/}
-        <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
-            <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://content3.jdmagicbox.com/comp/gurgaon/a6/011pxx11.xx11.180831142455.s7a6/catalogue/burger-queen-sector-49-gurgaon-burger-joints-v6x83zks1u.jpg) center / cover"}}></CardTitle>
-            <CardText style={{color: "#2271b3", justifyContent:""}}>
-            Burger Queen<hr/>Este es un proyecto creado con ReactJs, el cual tiene una interfas para hacer los pedidos de un restaurat.
-            </CardText>
-            <CardActions border>
-            <Button colored href="https://github.com/myrna90/GDL002-burger-queen" target="_blank">GitHub</Button>
-            <Button colored href="https://myrna90.github.io/GDL002-burger-queen/" target="_blank">Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: "black"}}>
-            <IconButton name="share"/>
-            </CardMenu>
-        </Card>
+        {/*proyectos con react*/}   
         
-        {/*Project 2*/}
+        {/*Project 1*/}
         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
             <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://img.freepik.com/vector-gratis/ilustracion-logo-ubicacion-pin-icono-restaurante_15602-15.jpg?size=338&ext=jpg) center / cover"}}></CardTitle>
             <CardText style={{color: "#2271b3", justifyContent:""}}>
@@ -93,8 +83,39 @@ class Projects extends React.Component{
             <IconButton name="share"/>
             </CardMenu>
         </Card>
+
+         {/*Project 2*/}
+         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
+            <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://retos-directivos.eae.es/wp-content/uploads/2016/09/645-evaluacion-de-proveedor.jpg) center / cover"}}></CardTitle>
+            <CardText style={{color: "#2271b3", justifyContent:""}}>
+            Evaluador de Startups<hr/>Este proyecto es una herramienta interna creada para hacer más eficaz el seguimiento de startups, 
+            y así poder evaluarlas de una forma rápida, para futuras inversiones.
+            </CardText>
+            <CardActions border>
+            <Button colored href="https://github.com/myrna90/rampa-finder" target="_blank">GitHub</Button>
+            <Button colored href="http://rampa-finder.herokuapp.com" target="_blank">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: "black"}}>
+            <IconButton name="share"/>
+            </CardMenu>
+        </Card>
+
+         {/*Project 3*/}
+         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
+            <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://content3.jdmagicbox.com/comp/gurgaon/a6/011pxx11.xx11.180831142455.s7a6/catalogue/burger-queen-sector-49-gurgaon-burger-joints-v6x83zks1u.jpg) center / cover"}}></CardTitle>
+            <CardText style={{color: "#2271b3", justifyContent:""}}>
+            Burger Queen<hr/>Este es un proyecto creado con ReactJs, el cual tiene una interfas para hacer los pedidos de un restaurat.
+            </CardText>
+            <CardActions border>
+            <Button colored href="https://github.com/myrna90/GDL002-burger-queen" target="_blank">GitHub</Button>
+            <Button colored href="https://myrna90.github.io/GDL002-burger-queen/" target="_blank">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: "black"}}>
+            <IconButton name="share"/>
+            </CardMenu>
+        </Card>
         
-        {/*Project 3*/}
+        {/*Project 4*/}
         <Card shadow={5} style={{minWidth:"450", margin:"auto"}}>
             <CardTitle style={{color: "#fff", height: "27vh", background: "url(https://miro.medium.com/max/1200/1*81GhGbn6cnJycDP92rBDqQ.png) center / cover"}}></CardTitle>
             <CardText style={{color: "#2271b3", justifyContent:""}}>
