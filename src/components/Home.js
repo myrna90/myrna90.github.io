@@ -17,7 +17,7 @@ class Home extends React.Component {
                         
                         <div className="social-links">
                             {/* Github*/}
-                            <a href="https://github.com/myrna90" target="_blank">
+                            <a href="https://github.com/myrna90" target="_blank" rel="noopener noreferrer">
                             <img src="https://image.flaticon.com/icons/svg/25/25231.svg"/>
                             </a>
                               
@@ -27,7 +27,7 @@ class Home extends React.Component {
                             </a>
 
                             {/* CV*/}
-                            <a href="https://drive.google.com/open?id=1AyXnFwE_pl_mgAtUzN_QbZ3RK5kVG48x" target="_blank">
+                            <a href="https://drive.google.com/open?id=1AyXnFwE_pl_mgAtUzN_QbZ3RK5kVG48x" rel="noopener noreferrer" target="_blank">
                             <img src="https://www.flaticon.es/premium-icon/icons/svg/1895/1895114.svg"/>
                             </a>
                              
